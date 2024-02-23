@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Smart School</div>
+        </div>
+        <ul>
+            <li><a href="#">Staff Details</a></li>
+            <li><a href="#">Staff Attendance</a></li>
+            <li><a href="#">Biometric Attendance</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Staff Leaves</a></li>
+            <li><a href="#">Staff Report</a></li>
+        </ul>
+    </header>
+
+    <section class="staff-details">
+        <h2 class="text-center">BRANCH: SHAHEEN JUNIOR COLLEGE</h2><br>
+        <h2 class="headings">Staff Details</h2>
+        <form action="#">
+            <div class="horizontal-form">
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" required>
+                    <option value="">Select</option>
+                    <option value="temporary">temporary</option>
+                    <option value="permanent">permanent</option>
+                </select>
+            
+                <label for="staff-type">Staff Type:</label>
+                <select id="staff-type" required>
+                    <option value="">Select Staff Type</option>
+                    <option value="teaching">Teaching</option>
+                    <option value="non-teaching">Non-Teaching</option>
+                    <option value="transport">Transport</option>
+                </select>
+            
+                <label for="staff-department">Staff Department:</label>
+                <select id="staff-department" required>
+                    <option value="">Select Department</option>
+                    <option value="science">Science</option>
+                    <option value="math">Mathematics</option>
+                    <option value="english">English</option>
+                </select>
+            
+                <label for="employment-category">Employment Category:</label>
+                <select id="employment-category" required>
+                    <option value="">Select Employment Category</option>
+                    <option value="full-time">Full Time</option>
+                    <option value="part-time">Part Time</option>
+                    <option value="contractual">Contractual</option>
+                </select>
+            
+                <label for="designation">Designation:</label>
+                <select id="designation" required>
+                    <option value="">Select</option>
+                </select>
+                <label for="qualification-type">Qualification Type:</label>
+                <select id="qualification-type" required>
+                    <option value="">Select Qualification Type</option>
+                    <option value="bachelor">Bachelor's</option>
+                    <option value="master">Master's</option>
+                    <option value="phd">PhD</option>
+                </select>
+            
+                <label for="education-qualification">Education Qualification:</label>
+                <input type="text" id="education-qualification" required>
+            
+                <label for="access-level">Access Level:</label>
+                <select id="access-level" required>
+                    <option value="">Select access level</option>
+                </select>
+            
+                <label for="trained-as">Trained As:</label>
+                <select id="trained-as" required>
+                    <option value="">Select level</option>
+                </select>
+                <label for="ctet-qualified">CTET Qualified:</label>
+                <select id="ctet-qualified" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            </div>
+            <h2 class="headings p-2">Personal Details</h2>
+            <div class="horizontal-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" required>
+
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name">
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" required>
+
+                <label for="mobile-no">Mobile No:</label>
+                <input type="tel" id="mobile-no" required>
+
+                <label for="emergency-contact-no">Emergency Contact No:</label>
+                <input type="tel" id="emergency-contact-no" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" required>
+
+                <label for="permanent-address">Permanent Address:</label>
+                <input type="text" id="address" required>
+
+
+                <label for="corresponding-address">Corresponding Address:</label>
+                <input type="text" id="address" required>
+
+                <label for="religion">Religion:</label>
+                <select id="religion" required>
+                    <option value="hindu">Hindu</option>
+                    <option value="Muslim">Muslim</option>
+                    <option value="Christianity">Christianity</option>
+                </select>
+            </div>
+            <h2 class="headings p-2">Other Details</h2>
+            <div class="horizontal-form">
+                <label for="aadhar-no">Aadhar No:</label>
+                <input type="text" id="aadhar-no" required>
+
+                <label for="pan-no">PAN No:</label>
+                <input type="text" id="pan-no" required>
+
+                <label for="date-of-joining">Date of Joining:</label>
+                <input type="date" id="date-of-joining" required>
+
+                <label for="staff-reference-code">Staff Reference Code:</label>
+                <input type="text" id="staff-reference-code" required>
+
+                <label for="salary-pay-type">Salary Pay Type:</label>
+                <input type="text" id="salary-pay-type" required>
+
+                <label for="government-id">Government ID/ Resident No:</label>
+                <input type="text" id="government-id" required>
+
+                <label for="citizenship">Citizenship:</label>
+                <input type="text" id="citizenship" required>
+            </div>
+
+            <button type="submit">Save and Continue</button>
+        </form>
+    </section>
+</body>
+</html>

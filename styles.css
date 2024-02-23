@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    font-size: medium;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.staff-details {
+    margin-top: 80px;
+    padding: 20px 100px;
+}
+
+.staff-details h2 {
+    margin-bottom: 20px;
+}
+
+.horizontal-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.horizontal-form label {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.horizontal-form input,
+.horizontal-form select,
+.horizontal-form textarea {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.horizontal-form textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #e25e0c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e25e0c;
+}
+
+.headings{
+    background-color: aqua;
+    color: blue;
+}
+.text-center{
+    align-items: center;
+}
